@@ -55,11 +55,11 @@ const Login = () => {
                 <form autoComplete="off" onSubmit={login}>
                     <div className="campo-form">
                         <label htmlFor="email">Email: </label>
-                        <input type="email" id="email" name="email" placeholder="Ingrese su email" value={email} onChange={cambio}/>
+                        <input type="email" id="email" name="email" placeholder="Ingrese con el correo demo@demo.com" value={email} onChange={cambio}/>
                     </div>
                     <div className="campo-form">
                         <label htmlFor="password">Password: </label>
-                        <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" value={password} onChange={cambio}/>
+                        <input type="password" id="password" name="password" placeholder="Ingrese con la contraseña: demo123" value={password} onChange={cambio}/>
                     </div>
                     <div className="campo-form">
                         <button type="submit" className="btn btn-primario btn-block">Entrar</button>
